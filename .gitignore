@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated outputs (keep folder placeholders)
+data/*.csv
+models/*.joblib
+outputs/*.png
+outputs/*.json
