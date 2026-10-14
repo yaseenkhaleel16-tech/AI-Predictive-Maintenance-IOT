@@ -94,26 +94,16 @@ Exact probability and metrics can differ by package versions and random split.
 ## How the simulation works
 The simulator samples plausible ranges and creates a risk label from combined sensor thresholds plus a small amount of noise. The model learns those simulated patterns. This demonstrates a complete ML workflow, but performance on synthetic data does not establish real-world predictive accuracy.
 
-## Outputs and screenshots
-Save screenshots of:
-1. Dataset preview
-2. Terminal showing training/evaluation
-3. Confusion matrix (`outputs/confusion_matrix.png`)
-4. Feature importance (`outputs/feature_importance.png`)
-5. Dashboard with a prediction
-6. API test response
 
-## GitHub publishing
-Create a repository named `AI-Predictive-Maintenance-IoT`, then from this folder:
-```bash
-git init
-git add .
-git commit -m "Build simulated predictive maintenance ML pipeline"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/AI-Predictive-Maintenance-IoT.git
-git push -u origin main
-```
-Replace `YOUR-USERNAME` with your GitHub username. Do not commit virtual environments or private credentials.
+
+
+
+<img width="1202" height="213" alt="Screenshot 2026-10-14 205224" src="https://github.com/user-attachments/assets/c0f912c4-4921-4d07-b403-1cb324a0d54b" />
+<img width="1912" height="952" alt="Screenshot 2026-10-14 205155" src="https://github.com/user-attachments/assets/730aa876-1bb3-49a4-8643-ebbfed8e747d" />
+
+<img width="800" height="640" alt="confusion_matrix" src="https://github.com/user-attachments/assets/7f2b211a-8383-4781-b201-8b30ecbe4f4c" />
+<img width="960" height="640" alt="feature_importance" src="https://github.com/user-attachments/assets/4dd0ebaf-66ea-4229-a5cf-276f2ee8c0ae" />
+
 
 ## Suggested improvements
 - Replace synthetic data with a documented public industrial dataset.
