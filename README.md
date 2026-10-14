@@ -110,3 +110,4 @@ The simulator samples plausible ranges and creates a risk label from combined se
 - Use time-based validation to prevent leakage when working with sequential data.
 - Add drift monitoring, alert history, authentication, and deployment tests.
 - Calibrate risk thresholds with domain experts before any real-world use.
+Github: https://github.com/yaseenkhaleel16-tech/AI-Predictive-Maintenance-IO
